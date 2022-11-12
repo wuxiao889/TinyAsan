@@ -1,0 +1,6 @@
+
+add_executable(print_stack_test print_stack_test.cpp)
+add_executable(mynew_test mynew_test.cpp)
+
+add_executable(tiny_sanitizer_test tiny_sanitizer_test.cpp)
+target_link_libraries(tiny_sanitizer_test tasan)
